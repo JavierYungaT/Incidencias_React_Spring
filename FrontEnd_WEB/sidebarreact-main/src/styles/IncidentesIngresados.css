@@ -1,0 +1,79 @@
+/* IncidentesIngresados.css */
+
+.container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  h1 {
+    margin-bottom: 20px;
+  }
+  
+  .datatable {
+    width: 90%;
+    border-collapse: collapse;
+  }
+  
+  .datatable th,
+  .datatable td {
+    border: 2px solid #ddd;
+    padding: 8px;
+  }
+  
+  /* .datatable th {
+    background-color: #3538e4;
+    text-align: left;
+  } */
+  
+  .datatable tr:nth-child(even) {
+    background-color: #ddd;
+  }
+  
+  .datatable tr:hover {
+    background-color: rgb(64, 64, 237);
+  }
+  
+  .pagination {
+    margin-top: 20px;
+  }
+  
+  .pagination button {
+    margin-right: 5px;
+    padding: 5px 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .pagination button:hover {
+    background-color: #0056b3;
+  }
+  
+
+  .input-search{
+    padding: 8px 12px; /* Ajusta el padding según tu preferencia */
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 250px; /* Ajusta el ancho según tu diseño */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    transition: border-color 0.3s ease-in-out; /* Transición suave para el borde */
+    margin-right: auto;
+    margin-bottom: 10px;
+  
+    /* Estilos cuando el input está enfocado */
+    &:focus {
+      border-color: #007bff; /* Cambia el color del borde al enfocar el input */
+      outline: none; /* Quita el contorno predeterminado */
+    }
+  
+    /* Estilos para el placeholder */
+    &::placeholder {
+      color: #aaa; /* Color del texto del placeholder */
+    }
+    
+  }
+  

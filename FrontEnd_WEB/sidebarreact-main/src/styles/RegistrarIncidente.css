@@ -1,0 +1,43 @@
+/* RegistrarIncidente.css */
+
+.container {
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  
+  
+  .form {
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+  }
+  
+  .form div {
+    margin-bottom: 20px;
+  }
+  
+  .form label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .form input,
+  .form textarea {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+  }
+  
+.titulo{
+  font-family: 'Orbitron', sans-serif; 
+  animation: glitch 1s infinite alternate;
+  text-align: center;
+}
+@keyframes glitch {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-2px); }
+}
