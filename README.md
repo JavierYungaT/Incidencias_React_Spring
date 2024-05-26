@@ -1,23 +1,23 @@
 # Incidencias_React_Spring
  Aplicativos app y web
 
-INSTALACIONES Generales
+----------------INSTALACIONES Generales-------------------
 
 Node v20.12.2
 ID: Sprint Boot
 
-Configuraciones Backend 
+----------------Configuraciones Backend----------------
 
-Configurar http WEB
+- Configurar http WEB
 
 @CrossOrigin(origins = "http://localhost:5173")
 
-Configurar http APP
+- Configurar http APP
 
 @CrossOrigin(origins = "http://192.168.18.8:8082")
 
 
-Frond End WEB
+----------------Frond End WEB----------------
 
 npm install axios  instalar axios para las peticiones de http
 
@@ -30,7 +30,7 @@ npm install
 npm start
 
 
-Frond End APP
+----------------Frond End APP----------------
 
 npm install react-native-vector-icons
 
