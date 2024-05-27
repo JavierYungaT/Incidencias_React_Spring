@@ -80,3 +80,9 @@ En el listado de pendientes en el icono de revisar, nos lleva a la siguiente pan
 Modo Dark se aplica en todo el proyecto
 ![](https://github.com/JavierYungaT/Incidencias_React_Spring/blob/main/Imagenes_App_Web/ModoDark.png)
 
+
+
+----------------PANTALLA BASE DE DATOS----------------
+
+![](https://github.com/JavierYungaT/Incidencias_React_Spring/blob/main/Imagenes_App_Web/baseDatos.png)
+
