@@ -5,6 +5,7 @@
 
 Node v20.12.2
 ID: Sprint Boot
+Java 17
 
 ----------------Configuraciones Backend----------------
 
@@ -48,6 +49,16 @@ npm start
 ----------------Base de datos----------------
 
 incidentes
+
+
+----------------PANTALLAS APP----------------
+
+![](https://github.com/JavierYungaT/Incidencias_React_Spring/blob/main/Imagenes_App_Web/APPHome.jpg)
+
+![](https://github.com/JavierYungaT/Incidencias_React_Spring/blob/main/Imagenes_App_Web/Addincidencias.jpg)
+
+![](https://github.com/JavierYungaT/Incidencias_React_Spring/blob/main/Imagenes_App_Web/ListIncidencias.jpg)
+
 
 
 
